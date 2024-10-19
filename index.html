@@ -11,6 +11,8 @@ function constructMailto()
 
     var bd= textElem.value;
 
+    bd= bd.replace( '\\', '\\\\' );
+
     bd= bd.split("\n");
 
     bd= bd.map( (ln) => `%09'${ln}',%0A` );
@@ -46,7 +48,7 @@ the handle textbox is just so I know who sent the text, it will not be shown in 
 <p style="font-size: 40px;">
     Handle:
 <input id="handle" style="font-size: 40px;"></inpur>
-<a id="maillink" href="mailto:tehdasi@gmail.com?subject=stuff&body=body">Send Mail</a>
+<a id="maillink" href="mailto:syntaxpartyscroller2024@proton.me?subject=stuff&body=body">Send Mail</a>
 </p>
 <p>Text:</p>
 <p>
