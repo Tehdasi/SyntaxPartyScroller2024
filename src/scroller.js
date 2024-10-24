@@ -14,7 +14,7 @@
 
 
 const backgroundColor= "#7f6050";
-const showFps= true;
+const showFps= false;
 
 var screen= new ShaderScreen();
 
