@@ -11,3 +11,4 @@ Notes:
     - Yeah, this should also be an option to just move the src files to the build dir and that would make it even better. Oh well, maybe for the next ver.
 - note how the scroller first goes to a brown screen first before getting to the actual demo? It's to get around browsers stopping music play back until the user has interacted with the page.
 - The text functions seem to run like ass on Firefox, so, like use chrome?
+- includes the code from https://github.com/vitling/acid-banger , but compiled to javascript and the algo to changed to do pattern changes all at once, rather than incrementally. See banger.js.
